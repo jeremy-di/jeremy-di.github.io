@@ -14,10 +14,6 @@ body {
     width: 60%;
 }
 
-.item01 h1 {
-    color: rgb(0, 86, 225);
-}
-
 .item01 h2 {
     color: rgb(0, 86, 225);
 }
@@ -37,6 +33,9 @@ body {
 
 .item02 li {
     list-style-type: none;
+    line-height: 2em;
+    font-weight: 700;
+    
 }
 
 .info{
@@ -46,7 +45,25 @@ body {
 
 .info i {
     margin-right: 0.5em;
-    color:rgb(0, 86, 225)
+    color:rgb(104, 104, 104)
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.formation span {
+    font-weight: 400;
+    color:rgb(95, 95, 253);
+    font-style: italic;
+}
+
+.grey {
+    color: gray;
+}
+
+.infos p {
+    color: rgb(104, 104, 104);
 }
 
 /* ------------------------------------ */
